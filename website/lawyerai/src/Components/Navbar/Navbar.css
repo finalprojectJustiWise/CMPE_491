@@ -1,0 +1,38 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0); 
+    color: #fff;
+    transition: background-color 0.3s ease; 
+    z-index: 1000;
+    width: 100vw; 
+}
+
+.navbar.scrolled {
+    background-color: rgb(0, 0, 0); 
+}
+    
+
+.navbar-menu {
+    
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    
+}
+.navbar-item a {
+    
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-item a:hover {
+    color: #ff6347; 
+}

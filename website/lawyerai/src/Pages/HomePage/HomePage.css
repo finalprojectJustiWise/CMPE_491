@@ -1,0 +1,26 @@
+#justiceimg{
+    width: 100vw;
+    height: 100%;
+}
+
+.image-container {
+    position: relative; 
+    display: inline-block; 
+}
+
+.image {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    
+    text-align: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+}

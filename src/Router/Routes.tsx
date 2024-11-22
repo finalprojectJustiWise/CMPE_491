@@ -4,8 +4,8 @@ import TeamPage from '../Pages/TeamPage/TeamPage'
 
 
 export const router = createHashRouter([
-    {path: "/",element:<HomePage/>},
+    {path:"/",element:<HomePage/>},
     {path:"/CMPE_491",element:<HomePage/>},
-    {path:"/team",element:<TeamPage/>}
+    {path:"/CMPE_491/team",element:<TeamPage/>}
 ])
 

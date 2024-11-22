@@ -5,6 +5,7 @@ import TeamPage from '../Pages/TeamPage/TeamPage'
 
 export const router = createBrowserRouter([
     {path: "/",element:<HomePage/>},
+    {path:"/CMPE_491",element:<HomePage/>},
     {path:"/team",element:<TeamPage/>}
 ])
 

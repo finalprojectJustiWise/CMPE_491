@@ -1,7 +1,4 @@
-import { create } from 'domain'
-import React from 'react'
 import { createBrowserRouter } from 'react-router-dom'
-import App from '../App'
 import HomePage from '../Pages/HomePage/HomePage'
 import TeamPage from '../Pages/TeamPage/TeamPage'
 

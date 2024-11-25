@@ -20,8 +20,8 @@ const Navbar = () => {
     }, []);
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}> <ul className="navbar-menu">
-        <li className="navbar-item"><a href="#/CMPE_491"><GoLaw /> Home</a></li>
-         <li className="navbar-item"><a href="#/team"><FaUsers /> Team</a></li>
+        <li className="navbar-item"><a href="/CMPE_491"><GoLaw /> Home</a></li>
+         <li className="navbar-item"><a href="/team"><FaUsers /> Team</a></li>
          </ul></nav>
   )
 }

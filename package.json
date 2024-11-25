@@ -2,7 +2,7 @@
   "name": "lawyerai",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://finalprojectjustiwise.github.io/CMPE_491/",
+  "homepage": "https://finalprojectjustiwise.github.io/CMPE_491/#",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

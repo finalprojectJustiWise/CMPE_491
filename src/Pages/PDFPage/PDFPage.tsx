@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Document, Page, pdfjs } from 'react-pdf';
+import { Document, Page } from 'react-pdf';
 import file from '../../Assets/ProjectSpecificationsReport.pdf';
 import './PDFPage.css';
 import Navbar from '../../Components/Navbar/Navbar';

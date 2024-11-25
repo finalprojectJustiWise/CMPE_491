@@ -1,0 +1,19 @@
+/* TeamPage Ana Konteyner */
+.teams-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Dikey olarak ortalar */
+    min-height: 100vh; /* Ekran yüksekliğini kapsar */
+    background-color: #f9f9f900;
+    padding: 20px;
+  }
+  
+  /* Kartları Yan Yana Yerleştirme */
+  .teams {
+    display: flex;
+    flex-wrap: wrap; /* Ekran daraldığında kartlar alta geçer */
+    justify-content: center; /* Kartları yatay olarak ortalar */
+    gap: 20px; /* Kartlar arasında boşluk */
+  }
+  

@@ -7,6 +7,9 @@ import HomePage from './Pages/HomePage/HomePage';
 import Navbar from './Components/Navbar/Navbar';
 import { Outlet } from 'react-router';
 
+
+
+
 function App() {
   return (
    <></>

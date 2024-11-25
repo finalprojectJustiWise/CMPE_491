@@ -11,11 +11,15 @@ const HomePage = () => {
 
         <div className="overlay-text">
           <h1>Project Overview</h1>
-          <div>The JustiWise platform presents a transformative approach to improving legal processes, and advancing legal education. By integrating advanced AI technologies with intuitive interfaces, the platform automates repetitive legal tasks, provides dynamic training environments, and enhances overall efficiency in the legal field. It specifically addresses critical issues such as the heavy workload faced by lawyers, barriers to accessing legal services, and the absence of interactive, hands-on training tools for law students and professionals.
-Key features of the platform include:
-a- AI-powered tools that translate client narratives into structured legal terminology, facilitating flawless communication between clients and lawyers.
-b- Interactive training modules and simulations designed to prepare law students and legal professionals for real-world scenarios. 
+          <div>
+  The JustiWise platform presents a transformative approach to improving legal processes, and advancing legal education. By integrating advanced AI technologies with intuitive interfaces, the platform automates repetitive legal tasks, provides dynamic training environments, and enhances overall efficiency in the legal field. It specifically addresses critical issues such as the heavy workload faced by lawyers, barriers to accessing legal services, and the absence of interactive, hands-on training tools for law students and professionals. Key features of the platform include:
+  <br />
+  a- AI-powered tools that translate client narratives into structured legal terminology, facilitating flawless communication between clients and lawyers.
+  <br />
+  b- Interactive training modules and simulations designed to prepare law students and legal professionals for real-world scenarios.
 </div>
+
+
 
           <h1>Project Objective</h1>
           <div>To reduce lawyers' workload, enable them to focus on more complex tasks, and improve efficiency by offering automated services (consultation) to clients. This AI-powered system will provide clients with legal guidance, analyze documents, and predict case outcomes. It will also offer features for lawyers and law students.</div>
@@ -57,7 +61,7 @@ b- Interactive training modules and simulations designed to prepare law students
 
           </ul>
 
-          <h1>Conclusion</h1>
+          
           <div>
             {/* Dosya indirme butonları */}
             <h1>Project Downloads</h1>

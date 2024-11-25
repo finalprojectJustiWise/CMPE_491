@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import { GoLaw } from "react-icons/go";
-import { FaUsers } from "react-icons/fa";
+import { FaFile, FaUsers } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -22,6 +22,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}> <ul className="navbar-menu">
         <li className="navbar-item"><a href="/CMPE_491"><GoLaw /> Home</a></li>
          <li className="navbar-item"><a href="#/team"><FaUsers /> Team</a></li>
+         <li className="navbar-item"><a href="#/files"><FaFile /> Files</a></li>
          </ul></nav>
   )
 }

@@ -1,26 +1,104 @@
-#justiceimg{
-    width: 100vw;
-    height: 100%;
-}
 
-.image-container {
-    position: relative; 
-    display: inline-block; 
-}
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../Assets/justice.webp'); /* Resim yolunu kontrol edin */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center; 
+    padding: 20px;
+    box-sizing: border-box; 
+    overflow-y: auto;
+  }
+  
+  
+  .overlay-text {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Şeffaf koyu arka plan */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 800px;
+    width: 90%;
+    text-align: left;
+   
+  }
+  
+  .overlay-text h1 {
+    color: #1abc9c; /* Açık yeşil ton */
+    font-size: 28px; /* Daha büyük başlık */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1abc9c; /* Başlık alt çizgisi */
+    padding-bottom: 5px;
+  }
+  
+  .overlay-text div,
+  .overlay-text ul {
+    margin: 10px 0;
+    line-height: 1.8;
+    font-size: 18px; /* Daha büyük metin */
+  }
+  
+  .overlay-text ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .overlay-text ul.tech-list {
+    margin-top: 20px;
+  }
+  
+  .tech-list h2 {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #e67e22; /* Açık turuncu ton */
+  }
 
-.image {
-    display: block; 
-    width: 100%; 
-    height: auto; 
-}
-
-.overlay-text {
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    color: white; 
-    
-    text-align: center; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
-}
+  .overlay-text ul.funct-list {
+    margin-top: 20px;
+  }
+  
+  .funct-list h2 {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #e67e22; /* Açık turuncu ton */
+  }
+  
+  button {
+    background-color: #3498db; /* Açık mavi ton */
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul li {
+    font-size: 18px;
+    color: #f5f5f5;
+  }
+  
+  ul li a button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  

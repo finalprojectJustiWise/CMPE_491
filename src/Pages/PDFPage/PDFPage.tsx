@@ -5,9 +5,10 @@ import Navbar from '../../Components/Navbar/Navbar';
 
 
 const pdfFiles = [
+  { name: "Project Proposal", path: require('../../Assets/ProjectProposal.pdf') },
   { name: "Project Specifications", path: require('../../Assets/ProjectSpecificationsReport.pdf') },
   { name: "Project Analysis", path: require('../../Assets/ProjectAnalysisReport.pdf') },
-  { name: "Project Proposal", path: require('../../Assets/ProjectProposal.pdf') },
+  { name: "Project High-Level Design", path: require('../../Assets/High-Level Design Report.pdf') },
 ];
 
 const PDFPage = () => {

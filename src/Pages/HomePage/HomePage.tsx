@@ -90,6 +90,14 @@ const HomePage = () => {
                   <button>Download Project Analysis Report</button>
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://finalprojectjustiwise.github.io/CMPE_491/HighLevelDesignReport.zip"
+                  download="HighLevelDesignReport"
+                >
+                  <button>Download High-Level Design Report</button>
+                </a>
+              </li>
             </ul>
           </div>
         </div>

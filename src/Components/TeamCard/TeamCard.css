@@ -1,46 +1,86 @@
-.teamImage{
-    width: 100px;
-    height: 100px;
-}
-
+/* Kart Genel Tasarım */
 .person-card {
-    width: 200px;
-    height: 300px;
+    width: 180px;
+    height: 180px;
     perspective: 1000px;
     cursor: pointer;
-  }
-  
-  .person-card .front, .person-card .back {
+    position: relative;
+}
+
+/* Ön ve Arka Yüz */
+.person-card .front, 
+.person-card .back {
     width: 100%;
-    height: 100%;
+    height: 120%;
     position: absolute;
     backface-visibility: hidden;
     transition: transform 0.6s;
-  }
-  
-  .person-card .front {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Ön Yüz */
+.person-card .front {
     background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-  }
-  
-  .person-card .back {
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Arka Yüz */
+.person-card .back {
+    background-color: #222;
+    color: #fff;
     transform: rotateY(180deg);
-  }
-  
-  .person-card.flipped .front {
+}
+
+/* Kart Çevrilme Efekti */
+.person-card.flipped .front {
     transform: rotateY(180deg);
-  }
-  
-  .person-card.flipped .back {
+}
+
+.person-card.flipped .back {
     transform: rotateY(0deg);
-  }
+}
+
+/* Profil Fotoğrafı */
+.teamImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* İsim Stili */
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* LinkedIn Butonu */
+.linkedin-link {
+    margin-top: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* LinkedIn İkonu */
+.linkedin-icon {
+    font-size: 20px;
+    color: #0e76a8; /* LinkedIn rengi */
+    transition: transform 0.2s ease-in-out;
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.2);
+    color: #0077b5;
+}

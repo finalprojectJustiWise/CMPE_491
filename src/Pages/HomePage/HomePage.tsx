@@ -96,6 +96,15 @@ const HomePage = () => {
                   download="HighLevelDesignReport"
                 >
                   <button>Download High-Level Design Report</button>
+
+                  </a>
+              </li>
+              <li>
+                <a
+                  href="https://finalprojectjustiwise.github.io/CMPE_491/Low Level Design Report.zip"
+                  download="Low Level Design Report"
+                >
+                  <button>Download Low-Level Design Report</button>
                 </a>
               </li>
             </ul>

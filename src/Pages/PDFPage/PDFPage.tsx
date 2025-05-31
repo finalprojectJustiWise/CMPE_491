@@ -6,10 +6,12 @@ import Navbar from '../../Components/Navbar/Navbar';
 
 const pdfFiles = [
   { name: "Project Proposal", path: require('../../Assets/ProjectProposal.pdf') },
-  { name: "Project Specifications", path: require('../../Assets/ProjectSpecificationsReport.pdf') },
-  { name: "Project Analysis", path: require('../../Assets/ProjectAnalysisReport.pdf') },
-  { name: "Project High-Level Design", path: require('../../Assets/High-Level Design Report.pdf') },
-  { name: "Project Low-Level Design", path: require('../../Assets/Low Level Design Report.pdf') }
+  { name: "Project Specifications Report", path: require('../../Assets/ProjectSpecificationsReport.pdf') },
+  { name: "Project Analysis Report", path: require('../../Assets/ProjectAnalysisReport.pdf') },
+  { name: "High-Level Design Report", path: require('../../Assets/High-Level Design Report.pdf') },
+  { name: "Low-Level Design Report", path: require('../../Assets/Low Level Design Report.pdf') },
+  { name: "Test Plan Report", path: require('../../Assets/TestPlanReport.pdf') },
+  { name: "Final Report", path: require('../../Assets/Final Report.pdf') },
 ];
 
 const PDFPage = () => {
